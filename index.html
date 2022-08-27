@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Portfolio</title>
+    <link rel="icon" href="imagens/icone.png">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
+      <div class="container">
+        
+        <!--Header-->
+        <div class="navbar-header">
+
+          <!--Botão toggle-->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-nav">
+            <span class="sr-only">alternar navegação</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+        
+        </div>
+
+          <!--Navbar-->
+          <div class="collapse navbar-collapse" id="barra-nav">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="item-rede-social"><a href="https://linkedin.com/in/matheusesanto"><img src="imagens/linkedin.png" style="height: 50px; width: auto;"></a></li>
+              <li class="item-rede-social"><a href=""><img src="imagens/info.png" style="height: 50px; width: auto;"></a></li>
+              <li class="item-rede-social"><a href="https://github.com/mathesanto"><img src="imagens/github.png" style="height: 50px; width: auto;"></a></li>
+            </ul>
+          </div>
+
+      </div><!--Fim container-->
+    </nav> <!--Fim Nav-->
+
+    <div class="capa">
+      <div class="container">
+        <div class="row">
+          <!--Fotinha-->
+          <div class="col-md-6">
+
+            <div class="row esquerda">
+              <div class="col-md-6">
+                <img id="fotinha" src="imagens/fotinha.jpeg">
+                <img id="fotinha2" src="imagens/fotona.png">
+              </div>
+            </div>
+
+            <div class="row esquerda">  
+              <div class="col-md-6">
+                <a id="botao" href="" class="btn btn-custom btn-lg">Contato</a>
+              </div>
+            </div>
+
+          </div>
+
+          <!--Texto-->
+          <div class="col-md-6"></div>
+
+          <div class="col-md-6">
+            <h1 id="titulo">Quem sou eu?</h1>
+          </div>
+
+          <div class="col-md-6">
+            <div id="log"></div>
+          </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+      
+    
+
+    <!--Serviços-->
+    <section id="servicos">
+      <div class="container">
+        <div class="row">
+
+          <!--álbuns-->
+          <div class="col-md-6">
+
+            <div class="row albuns">
+
+              <div class="col-md-6">
+                <img src="imagens/linux.png" class="img-responsive">
+              </div>
+              <div class="col-md-6">
+                <img src="imagens/coding.png" class="img-responsive">
+              </div>
+            </div>
+
+            <div class="row albuns">
+
+              <div class="col-md-6">
+                <img src="imagens/consert.png" class="img-responsive">
+              </div>
+              <div class="col-md-6">
+                <img src="imagens/security.png" class="img-responsive">
+              </div>
+
+            </div>
+
+          </div>   
+          
+          <!--conteúdo-->
+          <div class="col-md-6">
+            <h2>Meus projetos</h2>
+            <h3>Infra</h3>
+            <p>Atualmente tenho trabalhado em um projeto de monitoramento e controle de infra de TI com o Zabbix. </p>
+            <h3>Segurança</h3>
+            <p>Faço parte de um projeto de implementação de segurança da informação e conformidade à LGPD.</p>
+            <h3>Dev</h3>
+            <p>Estudo Javascript e Typescript com pretensão de aprofundamento em React Native. Já tenho projetos com Python e automação e pequenas construções voltadas à web.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="final">
+      <div class="container">
+        <div class="row">
+          
+          <!--textinho esquerda-->
+          <div class="col-md-6" id="textin">
+            <h2>Skills</h2>
+            <h3>Soft skills</h3>
+            <p>Comunicação, trabalho em equipe, escrita, disciplina, autogestão.</p>
+            <h3>Hard skills</h3>
+            <p>Hardware, suporte à usuários, lógica de programação, Python, Javascript, LGPD, redes, GIT.</p>
+            <h3>Plus</h3>
+            <p>Estou em constante construção e aperfeiçoamento. Tenho prazer em aprender.</p>
+          </div>
+
+          <!--Img-->
+          <div class="col-md-6">
+            <div class="row celular">
+                <img src="imagens/notebook.png" class="img-responsive">
+            </div>
+          </div>
+        </div>
+      </div><!--Container-->
+    </section>
+
+    <!--Rodapé-->
+    <footer id="rodape">
+            <span id="feito">Matheus 2022.</span>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <script>
+      var div = document.getElementById('log');
+      var texto = 'Analista de infraestrutura de TI';
+
+      function escrever(str, el) {
+      var char = str.split('').reverse();
+      var typer = setInterval(function() {
+      if (!char.length) return clearInterval(typer);
+      var next = char.pop();
+      el.innerHTML += next;
+      }, 100);
+    }
+
+      escrever(texto, div);    
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+  </body>
+</html>
