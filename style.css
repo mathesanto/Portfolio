@@ -42,6 +42,7 @@ nav.navbar-transparente{
 	margin-top: 150px;
 	height: auto;
 	border-radius: 50%;
+	width: 300px;
 }
 img#fotinha2{
 	width: 0px;
@@ -148,7 +149,11 @@ h1{
 	padding-bottom: 20px;
 }
 img{
-	height: 300px;
+	height: 200px;
+	width: 200px;
+}
+#notebookimg{
+	height: auto;
 	width: 300px;
 }
 .albuns{
@@ -173,12 +178,12 @@ p{
 #textin{
 	color: white;
 }
-.celular{
+.notebook{
 	margin-left: 250px;
 	margin-top: 110px;
 	align-content: center;
 }
-.celular:hover{
+.notebook:hover{
 	transform: scale(1.4);
 	transition: all 0.1s;
 	color: white;
@@ -187,10 +192,10 @@ p{
 /*Footer*/
 #rodape{
 	background: black;
-	padding: 50px 0px 20px 0px;
+	padding: 20px 0px 20px 0px;
 }
 #feito{
-	font-size: 20px;
+	font-size: 17px;
 	color: white;
 	display: flex;
 	justify-content: center;
