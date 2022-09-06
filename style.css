@@ -39,7 +39,7 @@ nav.navbar-transparente{
 /*Capa*/
 
 #fotinha{
-	margin-top: 150px;
+	margin-top: 140px;
 	height: auto;
 	border-radius: 50%;
 	width: 300px;
@@ -51,17 +51,18 @@ img#fotinha2{
 	}
 
 
-@media(max-width: 915px){
+@media(max-width: 412px){
 	img#fotinha{
 	width: 0px;
     height: 0px;
     padding: 0px;
+	margin-top: 150px;
     opacity: 0;
 	}
 	img#fotinha2{
-	width: 300px;
+	width: 350px;
 	height: 300px;
-	margin-top: 85px;
+	margin-top: 0px;
 	margin-left: 50px;
 	opacity: 1;
 	}
