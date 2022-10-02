@@ -18,7 +18,8 @@ body{
 
 .capa{
 	height: 100vh;
-	display: grid;
+	display: table;
+	width: 100%;
 }
 
 /* Barra de navegação */
