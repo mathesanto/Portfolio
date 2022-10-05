@@ -61,9 +61,9 @@ img#fotinha2{
     opacity: 0;
 	}
 	img#fotinha2{
-	width: 350px;
-	height: 300px;
-	margin-top: 0px;
+	width: 250px;
+	height: auto;
+	margin-top: 85px;
 	margin-left: 50px;
 	opacity: 1;
 	}
