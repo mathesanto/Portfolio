@@ -55,10 +55,10 @@ img#fotinha2{
 @media(max-width: 412px){
 	img#fotinha{
 	width: 0px;
-    height: 0px;
-    padding: 0px;
+	height: 0px;
+	padding: 0px;
 	margin-top: 150px;
-    opacity: 0;
+	opacity: 0;
 	}
 	img#fotinha2{
 	width: 250px;
@@ -79,25 +79,67 @@ img#fotinha2{
 	#botao{
 	font-size: 15px;
 	}
+	.albuns{
+	width: 0;
+	height: 0;
+	}
+	#imagemcheia{
+	visibility: visible;
+	width: 380px;
+	height: 380px;
+	padding-left: 15px;
+	}
 }
 
-@media (max-width: 1366px){
+@media (min-width: 412px) and (max-width: 1000px){ /* Aqui vai para o mobile*/
+	#titulo{
+	font-size: 50px;
+	text-align: center;
+	margin-top: 30px;
+	}
+	#log{
+	text-align: center;
+	font-size: 5px;
+	}
+	.albuns{
+	width: 0;
+	height: 0;
+	}
+	#imagemcheia{
+	visibility: visible;
+	width: 400px;
+	height: 400px;
+	padding-left: 20px;
+	}
+}
+
+@media (min-width:1000px)and(max-width: 1366px){
 	img#fotinha{
-		width: 0px;
-		height: 0px;
-		padding: 0px;
-		opacity: 0;
-		}
-		img#fotinha2{
-		width: 250px;
-		height: auto;
-		margin-top: 15px;
-		margin-left: 65px;
-		opacity: 1;
-		}
-		#botao{
-		margin-left: 135px;
-		}
+	width: 0px;
+	height: 0px;
+	padding: 0px;
+	opacity: 0;
+	}
+	img#fotinha2{
+	width: 250px;
+	height: auto;
+	margin-top: 15px;
+	margin-left: 65px;
+	opacity: 1;
+	}
+	#botao{
+	margin-left: 135px;
+	}
+	.albuns{
+	width: 200px;
+	height: 200px;
+	}
+}
+
+@media (min-width:1000px){
+	#imagemcheia{
+	display: none;
+	}
 }
 
 h1{
@@ -158,9 +200,11 @@ img{
 	height: auto;
 	width: 300px;
 }
+
 .albuns{
 	padding: 10px 0px 10px 0px;
 }
+
 h2{
 	font-size: 50px;
 	font-weight: 900;
